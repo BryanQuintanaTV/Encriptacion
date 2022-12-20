@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-color: #E5E5E5;
+}
+
+.vector {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 30px;
+    bottom: 0%;
+}
+.vectorName{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 70px;
+    right: 50px;
+    top: -45px;
+    bottom: 0%;
+}
+
+#insertMessage {
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    left: 200px;
+    top: 300px;
+    background-color: #E5E5E5;
+    border: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #0A3871;
+}
+
+.rectangle {
+    position: absolute;
+    width: 400px;
+    height: 884px;
+    left: 1395px;
+    top: 40px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+#person {
+    position: absolute;
+    left: 1420px;
+    top: 200px;
+}
+
+#noMessage {
+    width: 336px;
+    height: 58px;
+
+    position: absolute;
+    left: 1425px;
+    top: 520px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 120%;
+
+    text-align: center;
+
+    color: #343A40;
+
+}
+
+#insert {
+    width: 336px;
+    height: 48px;
+
+    position: absolute;
+    left: 1425px;
+    top: 600px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+#theMessageIs{
+    position: absolute;
+    left: 1510px;
+    top: 100px; 
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #343A40;
+}
+#showMessage{
+    position: absolute;
+    width: 370px;
+    height: 550px;
+    left: 1405px;
+    top: 200px; 
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #343A40;
+    background-color: #FFFFFF;
+    border: 0;
+}
+#copy {
+    box-sizing: border-box;
+
+    position: absolute;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 1432px;
+    top: 820px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+}
+
+small {
+    position: absolute;
+    width: 255px;
+    height: 18px;
+    left: 120px;
+    top: 790px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+
+    opacity: 0.8;
+}
+
+#btnEncriptar {
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 100px;
+    top: 820px;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#btnDesencriptar {
+    box-sizing: border-box;
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 450px;
+    top: 820px;
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0A3871;
+}
+.myInfo{
+    position: absolute;
+    left: 30px;
+    top: 900px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+
+    color: #0A3871;
+}
+.logo{
+    position: absolute;
+    top: -5px;
+}
+.logoGithub{
+    position: absolute;
+    top: -7px;
+    left: 400px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="images/setting.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    
+    <img class="vector" src="Images/AluraLogo.png" alt="">  <!--Alura's logo-->
+    <img class="vectorName" src="images/myName.svg" alt=""> <!--Developer Name-->
+
+    <input type="text" id="insertMessage" placeholder="Ingrese el texto aqui">  <!--The input to introduce the phrase-->
+
+    <div class="rectangle"></div>  <!--White rectangle to introduce the text-->
+
+    <img id="person" src="images/Muñeco.svg" alt=""> <!--Person image-->
+    <h2 id="noMessage">Ningún mensaje fue encontrado</h2>
+    <p id="insert">Ingresa el texto que desees encriptar o desencriptar.</p>
+    
+    <p id="theMessageIs">El mensaje es:</p>
+    <textarea id="showMessage" name="showMessage" rows="4" cols="50" readonly></textarea>
+    <button type="button" id="copy" onclick="copyText()">Copiar</button>
+
+    <small><img onclick="infoAlert()" src="images/info.svg" alt=""> Solo letras minúsculas y sin acentos</small>
+    <div>
+        <button type="button" id="btnEncriptar"  onclick="encriptar()">Encriptar</button>
+        <button type="button" id="btnDesencriptar" onclick="desencriptar()">Desencriptar</button>
+    </div>
+    
+    <p class="myInfo">Página web hecha por: Bryan Alexis Quintana Juarez 
+        <a href="https://www.linkedin.com/in/bryanalexisquintana/" target="_blank"><img class="logo" src="images/linkedin.svg" alt="" width="30px" height="30px"></a>
+        <a href="https://github.com/BryanQuintanaTV" target="_blank"><img class="logoGithub" src="images/github.svg" alt="" width="35px" height="35px"></a> 
+    </p>
+
+    <script
+    defer
+    src="https://app.embed.im/snow.js">
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
