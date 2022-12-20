@@ -472,6 +472,9 @@ small {
 }
 /*-----------------------------------------------------*/
 @media screen and (min-width: 1000px) and (max-width: 1900px) {
+    body{
+        overflow-x: hidden;
+     }
     .vector {
         position: absolute;
         left: 5%;
