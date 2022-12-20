@@ -145,7 +145,7 @@ function desencriptar() {
     }
 }
 
-function copyText() {
+/*function copyText() {
     var copyText = document.getElementById("showMessage");
 
     copyText.select();
@@ -155,7 +155,23 @@ function copyText() {
 
     alert("El texto se a copiado: " + copyText.value);
 
-}
+}*/
+
+function copyText() {
+    /* Get the text field */
+    var Text = document.getElementById("showMessage");
+  
+    /* Select the text field */
+    Text.select();
+    Text.setSelectionRange(0, 99999); /* For mobile devices */
+  
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
+  
+    /* Alert the copied text */
+    alert("Copied the text: " + Text.value);
+  }
+
 
 function infoAlert(){
     alert("Nota: Favor de solo incluir letras minúsculas y sin acentos")
