@@ -235,3 +235,238 @@ small {
     top: -7px;
     left: 400px;
 }
+/*---------------------------------------*/
+@media all and (max-width: 500px){
+    .vector {
+        position: absolute;
+        left: 50px;
+        right: 50px;
+        top: 30px;
+        bottom: 0%;
+    }
+    .vectorName{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 70px;
+        right: 50px;
+        top: -45px;
+        bottom: 0%;
+    }
+    
+    #insertMessage {
+        position: absolute;
+        width: 350px;
+        height: 80px;
+        left: 25px;
+        top: 150px;
+        background-color: #E5E5E5;
+        border: 0;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+    
+        color: #0A3871;
+    }
+    
+    .rectangle {
+        position: absolute;
+        width: 350px;
+        height: 380px;
+        left: 25px;
+        top: 250px;
+    
+        background: #FFFFFF;
+    
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+    
+    #person {
+        position: absolute;
+        left: 70px;
+        top: 270px;
+        height: 230px;
+    }
+    
+    #noMessage {
+        width: 336px;
+        height: 58px;
+    
+        position: absolute;
+        left: 30px;
+        top: 470px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 120%;
+    
+        text-align: center;
+    
+        color: #343A40;
+    
+    }
+    
+    #insert {
+        width: 336px;
+        height: 48px;
+    
+        position: absolute;
+        left: 30px;
+        top: 500px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #495057;
+    }
+    #theMessageIs{
+        position: absolute;
+        left: 120px;
+        top: 240px; 
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        color: #343A40;
+    }
+    #showMessage{
+        position: absolute;
+        width: 335px;
+        height: 250px;
+        left: 30px;
+        top: 295px; 
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        color: #343A40;
+        background-color: #ffffff;
+        border: 0;
+    }
+    #copy {
+        box-sizing: border-box;
+    
+        position: absolute;
+        padding: 20px;
+        gap: 4px;
+    
+        position: absolute;
+        width: 158px;
+        height: 57px;
+        left: 120px;
+        top: 560px;
+    
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    
+        /* Dark blue/dark-blue-300 */
+    
+        color: #0A3871;
+    }
+    
+    small {
+        position: absolute;
+        width: 255px;
+        height: 18px;
+        left: 70px;
+        top: 645px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+    
+        color: #495057;
+    
+        opacity: 0.8;
+    }
+    
+    #btnEncriptar {
+        align-items: center;
+        padding: 24px;
+        gap: 8px;
+    
+        position: absolute;
+        width: 328px;
+        height: 67px;
+        left: 40px;
+        top: 670px;
+    
+        background: #0A3871;
+        border-radius: 24px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    
+        color: #FFFFFF;
+    }
+    
+    #btnDesencriptar {
+        box-sizing: border-box;
+        position: absolute;
+        width: 328px;
+        height: 67px;
+        left: 40px;
+        top: 750px;
+    
+        background: #D8DFE8;
+    
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    
+        color: #0A3871;
+    }
+    .myInfo{
+        position: absolute;
+        left: 30px;
+        top: 850px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+    
+        color: #0A3871;
+    }
+    .logo{
+        position: absolute;
+        top: -5px;
+    }
+    .logoGithub{
+        position: absolute;
+        top: -7px;
+        left: 325px;
+    }
+}
