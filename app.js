@@ -9,6 +9,15 @@ $copy.style.display = "none";
 const $showMessage = document.querySelector("#showMessage");
 $showMessage.style.display = "none";
 
+const $showPerson = document.querySelector("#person");
+$showPerson.style.display = "block";
+
+const $showNoMessage = document.querySelector("#noMessage");
+$showNoMessage.style.display = "block";
+
+const $showInsert = document.querySelector("#insert");
+$showInsert.style.display = "block";
+
 const $theMessageIs = document.querySelector("#theMessageIs");
 $theMessageIs.style.display = "none";
 
@@ -21,8 +30,14 @@ function encriptar() {
     encriptedMessage = [];
     var x = document.getElementById('copy');
     var y = document.getElementById('showMessage');
+    var a = document.getElementById('person');
+    var b = document.getElementById('noMessage');
+    var c = document.getElementById('insert');
     var mess = document.getElementById('theMessageIs')
     if (x.style.display === 'block') {
+        a.style.display = 'block';
+        b.style.display = 'block';
+        c.style.display = 'block';
         y.style.display = 'none';
         x.style.display = 'none';
         mess.style.display = 'none';
@@ -59,6 +74,9 @@ function encriptar() {
             x.style.display = 'block';
             mess.style.display = 'block';
             $showMessage.value = encriptedMessage.join('');
+            a.style.display = 'none';
+            b.style.display = 'none';
+            c.style.display = 'none';
         } else {
             alert("Favor de solo incluir letras minúsculas y sin acentos")
         }
@@ -72,8 +90,14 @@ function desencriptar() {
     encriptedMessage = [];
     var x = document.getElementById('copy');
     var y = document.getElementById('showMessage');
-    var mess = document.getElementById('theMessageIs')
+    var mess = document.getElementById('theMessageIs');
+    var a = document.getElementById('person');
+    var b = document.getElementById('noMessage');
+    var c = document.getElementById('insert');
     if (x.style.display === 'block') {
+        a.style.display = 'block';
+        b.style.display = 'block';
+        c.style.display = 'block';
         y.style.display = 'none';
         x.style.display = 'none';
         mess.style.display = 'none';
@@ -112,6 +136,9 @@ function desencriptar() {
             x.style.display = 'block';
             mess.style.display = 'block';
             $showMessage.value = text;
+            a.style.display = 'none';
+            b.style.display = 'none';
+            c.style.display = 'none';
         } else {
             alert("Favor de solo incluir letras minúsculas y sin acentos")
         }
