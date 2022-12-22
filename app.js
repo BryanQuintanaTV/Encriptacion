@@ -41,6 +41,7 @@ function encriptar() {
         y.style.display = 'none';
         x.style.display = 'none';
         mess.style.display = 'none';
+        writeMessage.value = '';
     } else {
         text = writeMessage.value;
 
@@ -101,6 +102,7 @@ function desencriptar() {
         y.style.display = 'none';
         x.style.display = 'none';
         mess.style.display = 'none';
+        writeMessage.value = '';
     } else {
         text = writeMessage.value;
         textEncrip = text;
