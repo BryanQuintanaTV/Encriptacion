@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <link rel="icon" href="Images/setting.png">
     <meta charset="UTF-8">
@@ -7,56 +8,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <!-- Primary Meta Tags -->
-<title>Encriptador</title>
-<meta name="title" content="Encriptador">
-<meta name="description" content="Project Encryptor. Now you can encrypt and decrypt your messages.">
+    <title>Encriptador</title>
+    <meta name="title" content="Encriptador">
+    <meta name="description" content="Project Encryptor. Now you can encrypt and decrypt your messages.">
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://bryanquintana.codes/Encriptacion/">
-<meta property="og:title" content="Encriptador">
-<meta property="og:description" content="Project Encryptor. Now you can encrypt and decrypt your messages.">
-<meta property="og:image" content="">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bryanquintana.codes/Encriptacion/">
+    <meta property="og:title" content="Encriptador">
+    <meta property="og:description" content="Project Encryptor. Now you can encrypt and decrypt your messages.">
+    <meta property="og:image" content="Images/template.png">
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://bryanquintana.codes/Encriptacion/">
-<meta property="twitter:title" content="Encriptador">
-<meta property="twitter:description" content="Project Encryptor. Now you can encrypt and decrypt your messages.">
-<meta property="twitter:image" content="">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bryanquintana.codes/Encriptacion/">
+    <meta property="twitter:title" content="Encriptador">
+    <meta property="twitter:description" content="Project Encryptor. Now you can encrypt and decrypt your messages.">
+    <meta property="twitter:image" content="Images/template.png">
 </head>
+
 <body>
-    
-    <img class="vector" src="Images/AluraLogo.png" alt="">  <!--Alura's logo-->
+
+    <img class="vector" src="Images/AluraLogo.png" alt=""> <!--Alura's logo-->
     <img class="vectorName" src="Images/myName.svg" alt=""> <!--Developer Name-->
 
-    <input type="text" id="insertMessage" placeholder="Ingrese el texto aqui">  <!--The input to introduce the phrase-->
+    <input type="text" id="insertMessage" placeholder="Ingrese el texto aqui"> <!--The input to introduce the phrase-->
 
-    <div class="rectangle"></div>  <!--White rectangle to introduce the text-->
+    <div class="rectangle"></div> <!--White rectangle to introduce the text-->
 
     <img id="person" src="Images/Muñeco.svg" alt=""> <!--Person image-->
     <h2 id="noMessage">Ningún mensaje fue encontrado</h2>
     <p id="insert">Ingresa el texto que desees encriptar o desencriptar.</p>
-    
+
     <p id="theMessageIs">El mensaje es:</p>
     <textarea id="showMessage" name="showMessage" rows="4" cols="50" readonly></textarea>
     <button type="button" id="copy" onclick="copyText()">Copiar</button>
 
     <small><img onclick="infoAlert()" src="Images/info.svg" alt=""> Solo letras minúsculas y sin acentos</small>
     <div>
-        <button type="button" id="btnEncriptar"  onclick="encriptar()">Encriptar</button>
+        <button type="button" id="btnEncriptar" onclick="encriptar()">Encriptar</button>
         <button type="button" id="btnDesencriptar" onclick="desencriptar()">Desencriptar</button>
     </div>
-    
-    <p class="myInfo">Página web hecha por: Bryan Alexis Quintana Juarez 
-        <a href="https://www.linkedin.com/in/bryanalexisquintana/" target="_blank"><img class="logo" src="Images/linkedin.svg" alt="" width="30px" height="30px"></a>
-        <a href="https://github.com/BryanQuintanaTV" target="_blank"><img class="logoGithub" src="Images/github.svg" alt="" width="35px" height="35px"></a> 
+
+    <p class="myInfo">Página web hecha por: Bryan Alexis Quintana Juarez
+        <a href="https://www.linkedin.com/in/bryanalexisquintana/" target="_blank"><img class="logo"
+                src="Images/linkedin.svg" alt="" width="30px" height="30px"></a>
+        <a href="https://github.com/BryanQuintanaTV" target="_blank"><img class="logoGithub" src="Images/github.svg"
+                alt="" width="35px" height="35px"></a>
     </p>
 
-    <script
-    defer
-    src="https://app.embed.im/snow.js">
+    <script defer src="https://app.embed.im/snow.js">
     </script>
     <script src="app.js"></script>
 </body>
+
 </html>
